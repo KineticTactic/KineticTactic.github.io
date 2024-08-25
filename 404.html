@@ -6,12 +6,12 @@
         <title>Hmm...</title>
 
         <script>
-            window.onload() = () => {
+            window.addEvenetListener("load", () => {
             	currentURL = window.location.href;
             	if (currentURL.includes("reflecta")) {
             		location.replace("https://www.kinetictactic.github.io/Reflecta");
             	}
-            }
+            });
         </script>
     </head>
     <body></body>
